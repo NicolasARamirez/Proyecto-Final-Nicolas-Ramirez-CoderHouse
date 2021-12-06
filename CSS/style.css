@@ -3,5 +3,72 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
 body{
 	background: #ffffbf;
+	}
+
+.bg-lightblue{
+	background: lightblue;
+}
+
+.bg-orange{
+	background: #fc4a1a;
+}
+
+.noticias{
+	border: 5px solid black;
+	margin-top: 15px;
+}
+
+.txt-center{
+	text-align: center;
+}
+
+.padding{
+	padding: 10px;
+}
+
+.parrafoIndex{
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+.imgFooter{
+	height: 50px;
+	margin: 10px;
+}
+
+.txtFooter{
+	font-size: 15px;
+	color: black;
+	margin: 10px;
+}
+
+.txtFooter1{
+	margin-top:10px ;
+	display: inline-block;
+}
+
+.footer{
+	border-top: 5px solid black;
+	margin-top: 10px;
+}
+
+.header{
+	border-bottom: 5px solid black;
+}
+@media only screen and (min-width: 0px) and (max-width: 768px){
+
+}
+
+@media only screen and (min-width: 1024px){
+	.navbar-expand-lg .navbar-collapse {
+    display: -ms-flexbox!important;
+    display: flex!important;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+    justify-content: flex-end;
+}
+
+}	
