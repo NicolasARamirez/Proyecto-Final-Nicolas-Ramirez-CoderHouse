@@ -59,7 +59,17 @@ body{
 	border-bottom: 5px solid black;
 }
 @media only screen and (min-width: 0px) and (max-width: 768px){
+	.parrafoIndex{
+		font-size: 15px;
+	}
 
+	.parrafoNoticias{
+		font-size: 13px;
+	}
+
+	.titulo{
+		font-size: 13px;!important
+	}	
 }
 
 @media only screen and (min-width: 1024px){
