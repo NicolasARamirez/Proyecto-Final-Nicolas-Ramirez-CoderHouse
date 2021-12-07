@@ -21,6 +21,10 @@ body{
 	margin-top: 15px;
 }
 
+.asd{
+	margin-bottom: 40px;
+}
+
 .txt-center{
 	text-align: center;
 }
@@ -58,6 +62,64 @@ body{
 .header{
 	border-bottom: 5px solid black;
 }
+
+.txt-ansa{
+	margin-left: 68px;
+	color: black;
+	text-decoration: none;
+	border: 2px solid black;
+}
+
+.txt-ansa1{
+	margin-left: 73px;
+	color: black;
+	text-decoration: none;
+	border: 2px solid black;
+}
+
+.imgAnime{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.margin{
+	margin-bottom: 10px;
+}
+
+
+.margin-top{
+	margin-top: 10px;
+}
+
+.margin-top1{
+	margin-top: 300px;
+}
+
+.margin-top2{
+	margin-top: 410px;
+}
+
+.margin-bot{
+	margin-bottom: 300px;
+}
+
+.margin-bot1{
+	margin-bottom: 410px;
+}
+
+.txt-ansa2{
+	margin-left: 80px;
+	color: black;
+	text-decoration: none;
+	border: 2px solid black;
+}
+
+.txt-ansa3{
+	margin-left: 115px;
+	color: black;
+	text-decoration: none;
+	border: 2px solid black;
+}
 @media only screen and (min-width: 0px) and (max-width: 768px){
 	.parrafoIndex{
 		font-size: 15px;
@@ -69,7 +131,23 @@ body{
 
 	.titulo{
 		font-size: 13px;!important
-	}	
+	}
+
+	.margin-top1{
+	margin-top: 10px;
+}
+
+.margin-top2{
+	margin-top: 100px;
+}
+
+.margin-bot{
+	margin-bottom: 10px;
+}
+
+.margin-bot1{
+	margin-bottom: 100px;
+}	
 }
 
 @media only screen and (min-width: 1024px){
@@ -81,4 +159,4 @@ body{
     justify-content: flex-end;
 }
 
-}	
+}
