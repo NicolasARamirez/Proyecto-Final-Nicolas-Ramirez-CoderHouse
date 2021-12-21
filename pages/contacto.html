@@ -34,8 +34,8 @@
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                           <a class="dropdown-item" href="anime(A-I).html">De la A a la I</a>
-                          <a class="dropdown-item" href="anime(J-Q).html">De la J a la Q</a>
-                          <a class="dropdown-item" href="anime(R-Z).html">De la R a la Z</a>
+                          <!-- <a class="dropdown-item" href="anime(J-Q).html">De la J a la Q</a>
+                          <a class="dropdown-item" href="anime(R-Z).html">De la R a la Z</a> -->
                         </div>
                       </li>
                       <li class="nav-item">
@@ -52,21 +52,21 @@
 
 		 <!-- CONTENIDO -->
 		 <div class="row">
-		 	<div class="col-lg-12 col-xs-12 bg-orange margin-top1 margin-bot padding">
-		 		<form action="enviar.html">
+		 	<div class="col-lg-12 col-xs-12 d-flex justify-content-center" style="margin-top: 30px; margin-bottom: 30px;">
+		 		<form action="enviar.html" class="padding bg-orange" style="width: 1000px; border: 3px solid black;">
                   <div class="form-row">
                     <div class="form-group col-md-6">
                       <label for="inputEmail4">Nombre</label>
-                      <input type="email" class="form-control" id="inputEmail4" placeholder="Nombre">
+                      <input type="text" class="form-control" id="inputEmail4" placeholder="Nombre">
                     </div>
                     <div class="form-group col-md-6">
                       <label for="inputPassword4">Apellido</label>
-                      <input type="password" class="form-control" id="inputPassword4" placeholder="Apellido">
+                      <input type="text" class="form-control" id="inputPassword4" placeholder="Apellido">
                     </div>
                   </div>
                   <div class="form-group">
                     <label for="inputAddress">Email</label>
-                    <input type="text" class="form-control" id="inputAddress" placeholder="Ej: recomendacionesdeunotaku@gmail.com">
+                    <input type="email" class="form-control" id="inputAddress" placeholder="Ej: recomendacionesdeunotaku@gmail.com">
                   </div>
                   <div class="form-group">
                     <label for="inputAddress2">Mensaje</label>
@@ -92,6 +92,21 @@
                 </form>                
 		 	</div>
 		 </div>
+
+     <div class="row">
+       <div class="col-lg-6 col-xs-6 d-flex flex-column justify-content-center" style="margin-top: 10px;">
+         <img src="../assets/images/twitter.png" alt="Logo twitter" class="img-fluid">
+         <form action="https://twitter.com/?lang=es" class="d-flex align-items-center">
+         <input type="submit" value="Recomencaiones de un Otaku" style="width: 240px; margin-left: 30px;" class="padding">
+       </form>
+       </div>
+       <div class="col-lg-6 col-xs-6 d-flex flex-column justify-content-center" style="margin-top: 10px;">
+         <img src="../assets/images/instagram.png" alt="Logo instagram" class="img-fluid">
+       <form action="https://www.instagram.com/" class="d-flex align-items-center">
+         <input type="submit" value="Recomencaiones de un Otaku" style="width: 240px; margin-left: 30px;" class="padding">
+       </form>
+       </div>
+     </div>
 		 <!-- FOOTER -->
 		 <div class="row bg-lightblue footer">
 		 	<div class="col-lg-4 col-xs-4">

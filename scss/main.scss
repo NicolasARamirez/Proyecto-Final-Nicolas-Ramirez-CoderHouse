@@ -13,11 +13,13 @@ naranaja:#fc4a1a
 );
 
 body {
-  background: #ffffbf; }
+  background:map-get($bg,beige); 
+  }
 
 /* HEADER */
 header {
-  border-bottom: 5px solid black; }
+  border-bottom: 5px solid black; 
+  }
 
 .padding{
   padding: 10px;
@@ -26,29 +28,34 @@ header {
 /* FOOTER */
 .imgFooter {
   height: 50px;
-  margin: 10px; }
+  margin: 10px; 
+  }
+
 
 .txtFooter {
   font-size: 15px;
   color: black;
-  margin: 10px; }
+  margin: 10px; 
+  }
 
 .txtFooter1 {
   margin-top: 10px;
-  display: inline-block; }
+  display: inline-block; 
+  }
 
 .footer {
   border-top: 5px solid black;
-  margin-top: 10px; }
+  margin-top: 10px; 
+  }
 
 /* CONTENIDO */
 
 .bg-orange{
-  background: #fc4a1a;
+  background: map-get($bg,naranja);
 }
 
 .bg-lightblue{
-  background: lightblue;
+  background: map-get($bg,celeste);
 }
 
 .noticias{

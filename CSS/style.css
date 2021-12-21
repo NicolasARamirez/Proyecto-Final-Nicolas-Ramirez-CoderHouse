@@ -38,14 +38,22 @@ header {
   border: 5px solid black;
   margin-top: 15px; }
 
+.txt-center{
+  text-align: center;
+}
+
+.card{
+  border: 0px solid rgba(0,0,0,.125);!important
+}
+
 /* CONTENIDO IMAGENES ANIME */
-.imgAnime {
-  margin-left: 80px; }
+/*.imgAnime {
+  margin-left: 80px; }*/
 
 .botonAnsat {
   width: 170px;
-  margin-left: 115px;
-  margin-top: 30px; }
+  /*margin-left: 115px;
+  margin-top: 30px;*/ }
 
 @media only screen and (min-width: 0px) and (max-width: 768px) {
   .parrafoIndex {
